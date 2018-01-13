@@ -1,0 +1,39 @@
+{
+  "name": "anatolich/yobitapiclient26",
+
+  "description": "Yobit API php wrapper.",
+
+  "tags": ["yobit", "api", "client", "trade"],
+
+  "type": "library",
+
+  "license": "MIT",
+
+  "authors": [{
+
+      "name": "Anatoly Zamostyanov",
+
+      "email": "tolancho@mail.ru",
+
+      "role": "Developer"
+  }],
+
+  "require": {
+
+    "php": ">=5.5",
+
+    "ext-curl": "*",
+
+    "guzzlehttp/guzzle": "6.2.*"
+  },
+
+  "autoload": {
+
+    "psr-4": {
+
+      "Anatolich\\YobitAPIClient26\\": "src/"
+    }
+  },
+
+  "minimum-stability": "dev"
+}
