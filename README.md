@@ -7,7 +7,7 @@ Create bots, different clients or trade advisor.
 
 `composer require anatolich/yobitapiclient26`
 
-Edit the `config/boot_production.ini` to add api key and secret, given in Yobit crypto exchange.
+Edit the `src/config/boot_production.ini` to add api key and secret, given in Yobit crypto exchange.
 
 ```
 [api_auth]
