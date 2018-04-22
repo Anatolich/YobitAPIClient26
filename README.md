@@ -23,3 +23,5 @@ For complex basic info, please refer to the [Api Documentation](https://yobit.ne
 
 
 Donations are welcome:
+
+[paypal.me/tolancho](paypal.me/tolancho)
