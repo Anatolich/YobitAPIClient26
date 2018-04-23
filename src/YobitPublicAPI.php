@@ -98,9 +98,9 @@ class YobitPublicAPI extends YobitAPIBase
 	 * 
 	 * @throws RuntimeException if getting unresponsible http status code for the request
 	 *
-     * @param mixed $trade_pairs	given trade pair's
-     *
-     * @return array
+	 * @param mixed $trade_pairs	given trade pair's
+	 *
+	 * @return array
  	 *
  	 */
 
@@ -136,11 +136,11 @@ class YobitPublicAPI extends YobitAPIBase
 	 * 
 	 * @throws RuntimeException if getting unresponsible http status code for the request
 	 *
-     * @param mixed $trade_pairs	given trade pair's
-     * 
-     * @param integer|null $orders_limit	limit result
-     * 
-     * @return array
+	 * @param mixed $trade_pairs	given trade pair's
+	 * 
+	 * @param integer|null $orders_limit	limit result
+	 * 
+	 * @return array
  	 *
  	 */
 
@@ -197,7 +197,7 @@ class YobitPublicAPI extends YobitAPIBase
 	public function trades($trade_pairs = null, $trades_limit = null)
 	{
 		$method_name = 'trades';
-		//calleble
+
 		$request_param = $this->prepareTradePairs($trade_pairs);
 
 		$limit_param = (is_null($trades_limit) || $trades_limit > 2000 || !is_integer($trades_limit)) ? 150 : $trades_limit;

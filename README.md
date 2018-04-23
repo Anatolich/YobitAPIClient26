@@ -19,9 +19,11 @@ secret = "{YOUR_API_SECRET}"
 
 ### Usage
 
-For complex basic info, please refer to the [Api Documentation](https://yobit.net/en/api/) and read the service documentation.
+For complex basic info, please refer to the [API Documentation](https://yobit.net/en/api/) and read the service documentation.
 
 
 Donations are welcome:
 
 [paypal.me/tolancho](https://paypal.me/tolancho)
+
+[Yandex Money](https://money.yandex.ru/to/410011081590744)
